@@ -8,9 +8,16 @@ body{
     font-size: 10px;
   }
 
-  .or{
+.or{
       padding: 20px;
       font-size: 30px;
       text-align: center;
 
   }
+.date{
+      color: blue;
+    }
+    
+#date_now{
+    color: red;
+}
