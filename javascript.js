@@ -1,8 +1,16 @@
 
 window.addEventListener('DOMContentLoaded', ()=>{
-    //now = new Date();
-    //document.querySelector('#now').innerHTML = now;
+    now = new Date();
+    document.querySelector('.now').innerHTML = now;
     
+})
+    
+
+//console.log((4 + 6 + 9) / 77)
+
+//document.write("hello world! Now ", 3+4)
+//document.write(new Date())
+/*
     //taking input from users
     var answer = parseInt(prompt("Enter anumber"))
 
@@ -36,11 +44,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
     else{
         console.log(i);
     }
-}
-    })
-    
+    }*/
 
-//console.log((4 + 6 + 9) / 77)
 
-//document.write("hello world! Now ", 3+4)
-//document.write(new Date())

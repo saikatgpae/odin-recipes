@@ -1,23 +1,25 @@
 body{
-    color : #ff9800;
+  background-color: rgb(234, 223, 223);
 }
-* {
-    border: 1px dotted rgb(0, 255, 255);
-    padding: 0;
-    margin: 0;
-    font-size: 10px;
-  }
 
 .or{
-      padding: 20px;
-      font-size: 30px;
-      text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
 
-  }
-.date{
-      color: blue;
-    }
-    
-#date_now{
-    color: red;
+.now{
+  color: blue;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu > div{
+  padding-inline: 20px;
 }
